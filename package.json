@@ -29,6 +29,14 @@
     "freertos",
     "ai-agent"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjznb/dbghub.git"
+  },
+  "homepage": "https://github.com/cjznb/dbghub",
+  "bugs": {
+    "url": "https://github.com/cjznb/dbghub/issues"
+  },
   "scripts": {
     "test": "node --test --test-isolation=none \"test/**/*.test.mjs\"",
     "mcp": "node bin/dbghub.mjs mcp",

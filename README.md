@@ -25,7 +25,7 @@
 要求：Node ≥ 20；嵌入式调试需要 `openocd` + `arm-none-eabi-gdb`；本地调试需要 `gdb`。
 
 ```powershell
-git clone <this-repo>
+git clone https://github.com/cjznb/dbghub.git
 cd dbghub
 npm test                 # 180 tests；缺少本机 gdb/Renode/硬件样本的用例会自动 skip
 node bin/dbghub.mjs doctor --json
