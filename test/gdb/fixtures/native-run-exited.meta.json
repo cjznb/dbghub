@@ -1,0 +1,18 @@
+{
+ "gdb": "D:/msys64/mingw64/bin/gdb.exe",
+ "argv": [
+  "D:/msys64/mingw64/bin/gdb.exe",
+  "--interpreter=mi3",
+  "-q"
+ ],
+ "program": "C:/Windows/System32/whoami.exe",
+ "commands": [
+  "-gdb-set confirm off",
+  "-gdb-set pagination off",
+  "-file-exec-and-symbols \"C:/Windows/System32/whoami.exe\"",
+  "-exec-run",
+  "-gdb-exit"
+ ],
+ "exitCode": 0,
+ "stderr": ""
+}

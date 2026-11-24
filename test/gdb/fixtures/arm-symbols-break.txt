@@ -1,0 +1,34 @@
+=thread-group-added,id="i1"
+(gdb) 
+^done
+(gdb) 
+^done
+(gdb) 
+^done
+(gdb) 
+&"warning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\nThis normally should not happen, please file a bug report."
+&"\n"
+^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x0800383c",func="main",file="D:/projects/f103/zxw/P01_WindSensor_Val/Core/Src/main.c",fullname="D:\\projects\\f103\\zxw\\P01_WindSensor_Val\\Core\\Src\\main.c",line="77",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x0800383c",func="main",file="D:/projects/f103/zxw/P01_WindSensor_Val/Core/Src/main.c",fullname="D:\\projects\\f103\\zxw\\P01_WindSensor_Val\\Core\\Src\\main.c",line="77",thread-groups=["i1"],times="0",original-location="main.c:77"}
+(gdb) 
+^done,BreakpointTable={nr_rows="2",nr_cols="6",hdr=[{width="7",alignment="-1",col_name="number",colhdr="Num"},{width="14",alignment="-1",col_name="type",colhdr="Type"},{width="4",alignment="-1",col_name="disp",colhdr="Disp"},{width="3",alignment="-1",col_name="enabled",colhdr="Enb"},{width="10",alignment="-1",col_name="addr",colhdr="Address"},{width="40",alignment="2",col_name="what",colhdr="What"}],body=[bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x0800383c",func="main",file="D:/projects/f103/zxw/P01_WindSensor_Val/Core/Src/main.c",fullname="D:\\projects\\f103\\zxw\\P01_WindSensor_Val\\Core\\Src\\main.c",line="77",thread-groups=["i1"],times="0",original-location="main"},bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x0800383c",func="main",file="D:/projects/f103/zxw/P01_WindSensor_Val/Core/Src/main.c",fullname="D:\\projects\\f103\\zxw\\P01_WindSensor_Val\\Core\\Src\\main.c",line="77",thread-groups=["i1"],times="0",original-location="main.c:77"}]}
+(gdb) 
+~"GNU gdb (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 16.3.90.20250906-git\n"
+~"Copyright (C) 2024 Free Software Foundation, Inc.\n"
+~"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law."
+~"\nType \""
+~"show copying\" and \"show warranty\" for details.\n"
+~"This GDB was configured as \"--host=x86_64-w64-mingw32 --target=arm-none-eabi\".\n"
+~"Type \"show configuration\" for configuration details.\n"
+~"For bug reporting instructions, please see:\n"
+~"<https://gitlab.arm.com/tooling/gnu-devtools-for-arm/-/issues/>.\n"
+~"Find the GDB manual and other documentation resources online at:\n    <"
+~"http://www.gnu.org/software/gdb/documentation/>.\n\n"
+~"For help, type \"help\".\n"
+~"Type \"apropos word\" to search for commands related to \"word\".\n"
+^done
+(gdb) 
+^error,msg="could not connect (error 138): \317\265\315\263\312\324\315\274\275\253\307\375\266\257\306\367\272\317\262\242\265\275\272\317\262\242\307\375\266\257\306\367\311\317\265\304\304\277\302\274\241\243"
+(gdb) 
+^exit

@@ -1,0 +1,138 @@
+
+Discarded input sections
+
+ .group         0x00000000        0xc C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+LOAD C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.isr_vector     0x08000000       0x24
+ *(.vectors)
+ .vectors       0x08000000       0x24 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+                0x08000000                vectors
+
+.text           0x08000024       0x42
+ *(.text*)
+ .text          0x08000024        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .text.Reset_Handler
+                0x08000024        0x8 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+                0x08000024                Reset_Handler
+                0x0800002a                Default_Handler
+ .text          0x0800002c        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+ .text.tick     0x0800002c       0x18 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                0x0800002c                tick
+ .text.main     0x08000044       0x22 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                0x08000044                main
+ *(.rodata*)
+
+.glue_7         0x08000068        0x0
+ .glue_7        0x08000068        0x0 linker stubs
+
+.glue_7t        0x08000068        0x0
+ .glue_7t       0x08000068        0x0 linker stubs
+
+.vfp11_veneer   0x08000068        0x0
+ .vfp11_veneer  0x08000068        0x0 linker stubs
+
+.v4_bx          0x08000068        0x0
+ .v4_bx         0x08000068        0x0 linker stubs
+
+.iplt           0x08000068        0x0
+ .iplt          0x08000068        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+
+.rel.dyn        0x08000068        0x0
+ .rel.iplt      0x08000068        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+
+.data           0x20000000        0x0 load address 0x08000066
+ *(.data*)
+ .data          0x20000000        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .data          0x20000000        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.igot.plt       0x20000000        0x0 load address 0x08000066
+ .igot.plt      0x20000000        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+
+.bss            0x20000000        0x8 load address 0x08000066
+ *(.bss*)
+ .bss           0x20000000        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .bss           0x20000000        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+ .bss.last_value
+                0x20000000        0x4 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                0x20000000                last_value
+ .bss.tick_count
+                0x20000004        0x4 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                0x20000004                tick_count
+ *(COMMON)
+
+.stack          0x20000008      0x400 load address 0x08000066
+                0x20000008                        . = ALIGN (0x8)
+                0x20000408                        . = (. + 0x400)
+ *fill*         0x20000008      0x400 
+                0x20000408                        _estack = .
+OUTPUT(D:\projects\agent\dbghub\.hw\testfw\testfw.elf elf32-littlearm)
+LOAD linker stubs
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x21 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .ARM.attributes
+                0x00000021       0x2d C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                                 0x46 (size before relaxing)
+
+.debug_line     0x00000000       0xf8
+ .debug_line    0x00000000       0x4b C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .debug_line    0x0000004b       0xad C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_line_str
+                0x00000000       0x40
+ .debug_line_str
+                0x00000000       0x40 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+
+.debug_info     0x00000000      0x105
+ .debug_info    0x00000000       0x24 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .debug_info    0x00000024       0xe1 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_abbrev   0x00000000       0xea
+ .debug_abbrev  0x00000000       0x14 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .debug_abbrev  0x00000014       0xd6 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_aranges  0x00000000       0x48
+ .debug_aranges
+                0x00000000       0x20 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+ .debug_aranges
+                0x00000020       0x28 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_str      0x00000000     0x2eaa
+ .debug_str     0x00000000     0x2eaa C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckyQNBX.o
+                                 0x4e (size before relaxing)
+ .debug_str     0x00002eaa        0x0 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+                               0x2e7b (size before relaxing)
+
+.debug_loclists
+                0x00000000       0x31
+ .debug_loclists
+                0x00000000       0x31 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_rnglists
+                0x00000000       0x19
+ .debug_rnglists
+                0x00000000       0x19 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_macro    0x00000000      0xae9
+ .debug_macro   0x00000000       0x11 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+ .debug_macro   0x00000011      0xad8 C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o
+
+.debug_frame    0x00000000       0x3c
+ .debug_frame   0x00000000       0x3c C:\Users\cjz\AppData\Local\Temp\dsh-FGaON1\cckM8qSR.o

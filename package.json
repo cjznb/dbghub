@@ -1,0 +1,38 @@
+{
+  "name": "dbghub",
+  "version": "0.1.0",
+  "description": "Agent-oriented C/C++ debugger MCP: persistent daemon + stateless MCP shim",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "dbghub": "bin/dbghub.mjs"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "docs/user-guide.md",
+    "docs/renode.md",
+    "docs/contract-v1.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "debugger",
+    "gdb",
+    "openocd",
+    "embedded",
+    "stm32",
+    "freertos",
+    "ai-agent"
+  ],
+  "scripts": {
+    "test": "node --test --test-isolation=none \"test/**/*.test.mjs\"",
+    "mcp": "node bin/dbghub.mjs mcp",
+    "serve": "node bin/dbghub.mjs serve",
+    "doctor": "node bin/dbghub.mjs doctor"
+  }
+}

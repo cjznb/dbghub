@@ -1,0 +1,29 @@
+=thread-group-added,id="i1"
+(gdb) 
+^done
+(gdb) 
+^done
+(gdb) 
+^error,msg="C:/no such dir/missing.exe: No such file or directory."
+(gdb) 
+^done
+(gdb) 
+^error,msg="No symbol table is loaded.  Use the \"file\" command."
+(gdb) 
+~"Symbols from \"C:\\Windows\\System32\\whoami.exe\".\n"
+~"Local exec file:\n"
+~"\t`C:\\Windows\\System32\\whoami.exe', file type pei-x86-64.\n"
+~"\tEntry point: 0x140001cb0\n"
+~"\t0x0000000140001000 - 0x000000014000e16c is .text\n"
+~"\t0x000000014000f000 - 0x0000000140010000 is fothk\n"
+~"\t0x0000000140010000 - 0x0000000140013fe8 is .rdata\n"
+~"\t0x0000000140014000 - 0x00000001400149c0 is .data\n"
+~"\t0x0000000140015000 - 0x0000000140015840 is .pdata\n"
+~"\t0x0000000140016000 - 0x0000000140016840 is .rsrc\n"
+~"\t0x0000000140017000 - 0x0000000140017224 is .reloc\n"
+^done
+(gdb) 
+~"The target endianness is set automatically (currently little endian).\n"
+^done
+(gdb) 
+^exit

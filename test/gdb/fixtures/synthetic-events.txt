@@ -1,0 +1,21 @@
+=thread-created,id="2",group-id="i1"
+=thread-exited,id="2",group-id="i1"
+=cmd-param-changed,param="pagination",value="off"
+=breakpoint-created,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x0800033c",func="main",file="Core/Src/main.c",fullname="D:\\work\\app\\Core\\Src\\main.c",line="77",thread-groups=["i1"],times="0",original-location="main"}
++download,{section=".text",section-size="4096"},total-size="16384"
++download,{section=".data",section-size="512"},total-size="16384"
+@"/uart: hello \"world\"\n"
+@"/uart: backslash \\ and tab \t end"
+&"warning: could not convert 'main' from the host encoding (CP1252) to UTF-32.\n"
+~"octal: \101\102\103 and quote: \"q\" and slash: \\ \n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="2",frame={addr="0x0800383c",func="main",args=[],file="Core/Src/main.c",fullname="D:\\work\\app\\Core\\Src\\main.c",line="77",arch="arm"},thread-id="1",stopped-threads="all",core="0"
+*stopped,reason="signal-received",signal-name="SIGSEGV",signal-meaning="Segmentation fault",frame={addr="0x08004a10",func="fault_handler",file="Core/Src/main.c",fullname="D:\\work\\app\\Core\\Src\\main.c",line="120",arch="arm"},thread-id="1",stopped-threads="all"
+*stopped,reason="watchpoint-trigger",wpt={number="3",exp="counter"},value={old="1",new="2"},thread-id="1",stopped-threads="all"
+*stopped,reason="exited-signalled",signal-name="SIGTERM",exit-code="0x0f"
+^connected,thread-id="1"
+42^done,value="42"
+42^error,msg="Undefined MI command: bogus"
+43^done,stack=[frame={level="0",addr="0x0800383c",func="main",file="Core/Src/main.c",line="77"},frame={level="1",addr="0x08003900",func="Reset_Handler",file="startup_stm32f103xb.s",line="88"}]
+44^done,register-values=[{number="0",value="0x0"},{number="1",value="0x20005000"},{number="15",value="0x0800383c"}]
+45^done,threads=[{id="1",target-id="Thread 1",name="main",state="stopped"},{id="2",target-id="Thread 2",name="worker",state="stopped"}],current-thread-id="1"
+(gdb) 

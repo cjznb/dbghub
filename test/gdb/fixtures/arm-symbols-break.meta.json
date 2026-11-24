@@ -1,0 +1,22 @@
+{
+ "gdb": "G:/mcu/Arm GNU Toolchain arm-none-eabi/15.2.rel1/bin/arm-none-eabi-gdb.exe",
+ "argv": [
+  "G:/mcu/Arm GNU Toolchain arm-none-eabi/15.2.rel1/bin/arm-none-eabi-gdb.exe",
+  "--interpreter=mi3",
+  "-q"
+ ],
+ "program": null,
+ "commands": [
+  "-gdb-set confirm off",
+  "-gdb-set pagination off",
+  "-file-exec-and-symbols \"D:/projects/agent/dbghub/.hw/P01_WindSensor_Val/build/RelWithDebInfo/P01_WindSensor_Val.elf\"",
+  "-break-insert main",
+  "-break-insert \"main.c:77\"",
+  "-break-list",
+  "-interpreter-exec console \"show version\"",
+  "-target-select extended-remote localhost:1",
+  "-gdb-exit"
+ ],
+ "exitCode": 0,
+ "stderr": ""
+}

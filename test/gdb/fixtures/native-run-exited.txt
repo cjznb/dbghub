@@ -1,0 +1,52 @@
+=thread-group-added,id="i1"
+(gdb) 
+^done
+(gdb) 
+^done
+(gdb) 
+^done
+(gdb) 
+=thread-group-started,id="i1",pid="8272"
+=thread-created,id="1",group-id="i1"
+=thread-created,id="2",group-id="i1"
+~"[New Thread 8272.0x7f1c]\n"
+=thread-created,id="3",group-id="i1"
+~"[New Thread 8272.0x24c4]\n"
+=thread-created,id="4",group-id="i1"
+~"[New Thread 8272.0x61c4]\n"
+=library-loaded,id="C:\\WINDOWS\\SYSTEM32\\ntdll.dll",target-name="C:\\WINDOWS\\SYSTEM32\\ntdll.dll",host-name="C:\\WINDOWS\\SYSTEM32\\ntdll.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa5a871000",to="0x00007ffa5aadb844"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\kernel32.dll",target-name="C:\\WINDOWS\\System32\\kernel32.dll",host-name="C:\\WINDOWS\\System32\\kernel32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa591f1000",to="0x00007ffa592ba728"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\KernelBase.dll",target-name="C:\\WINDOWS\\System32\\KernelBase.dll",host-name="C:\\WINDOWS\\System32\\KernelBase.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa580f1000",to="0x00007ffa584f806c"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\advapi32.dll",target-name="C:\\WINDOWS\\System32\\advapi32.dll",host-name="C:\\WINDOWS\\System32\\advapi32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58ac1000",to="0x00007ffa58b7bb18"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\msvcrt.dll",target-name="C:\\WINDOWS\\System32\\msvcrt.dll",host-name="C:\\WINDOWS\\System32\\msvcrt.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58f81000",to="0x00007ffa590285f4"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\sechost.dll",target-name="C:\\WINDOWS\\System32\\sechost.dll",host-name="C:\\WINDOWS\\System32\\sechost.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58bb1000",to="0x00007ffa58c5761c"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\rpcrt4.dll",target-name="C:\\WINDOWS\\System32\\rpcrt4.dll",host-name="C:\\WINDOWS\\System32\\rpcrt4.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa590c1000",to="0x00007ffa591d7878"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\user32.dll",target-name="C:\\WINDOWS\\System32\\user32.dll",host-name="C:\\WINDOWS\\System32\\user32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa5a5b1000",to="0x00007ffa5a78d5a8"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\win32u.dll",target-name="C:\\WINDOWS\\System32\\win32u.dll",host-name="C:\\WINDOWS\\System32\\win32u.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58501000",to="0x00007ffa58526028"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\gdi32.dll",target-name="C:\\WINDOWS\\System32\\gdi32.dll",host-name="C:\\WINDOWS\\System32\\gdi32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa59561000",to="0x00007ffa5958a51c"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\gdi32full.dll",target-name="C:\\WINDOWS\\System32\\gdi32full.dll",host-name="C:\\WINDOWS\\System32\\gdi32full.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa57d91000",to="0x00007ffa57eb86c8"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\msvcp_win.dll",target-name="C:\\WINDOWS\\System32\\msvcp_win.dll",host-name="C:\\WINDOWS\\System32\\msvcp_win.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58041000",to="0x00007ffa580e2894"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\ucrtbase.dll",target-name="C:\\WINDOWS\\System32\\ucrtbase.dll",host-name="C:\\WINDOWS\\System32\\ucrtbase.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa57ba1000",to="0x00007ffa57cebec0"}]
+=library-loaded,id="C:\\WINDOWS\\System32\\ws2_32.dll",target-name="C:\\WINDOWS\\System32\\ws2_32.dll",host-name="C:\\WINDOWS\\System32\\ws2_32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa594c1000",to="0x00007ffa5953f204"}]
+=library-loaded,id="C:\\Windows\\System32\\version.dll",target-name="C:\\Windows\\System32\\version.dll",host-name="C:\\Windows\\System32\\version.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa56061000",to="0x00007ffa5606a084"}]
+=library-loaded,id="C:\\Windows\\System32\\sspicli.dll",target-name="C:\\Windows\\System32\\sspicli.dll",host-name="C:\\Windows\\System32\\sspicli.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa56071000",to="0x00007ffa560b9474"}]
+=library-loaded,id="C:\\Windows\\System32\\authz.dll",target-name="C:\\Windows\\System32\\authz.dll",host-name="C:\\Windows\\System32\\authz.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa54fe1000",to="0x00007ffa5502f39c"}]
+=library-loaded,id="C:\\Windows\\System32\\wkscli.dll",target-name="C:\\Windows\\System32\\wkscli.dll",host-name="C:\\Windows\\System32\\wkscli.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa560f1000",to="0x00007ffa5610a530"}]
+=library-loaded,id="C:\\Windows\\System32\\netutils.dll",target-name="C:\\Windows\\System32\\netutils.dll",host-name="C:\\Windows\\System32\\netutils.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa54e71000",to="0x00007ffa54e7c090"}]
+^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="C:\\WINDOWS\\System32\\imm32.dll",target-name="C:\\WINDOWS\\System32\\imm32.dll",host-name="C:\\WINDOWS\\System32\\imm32.dll",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffa58dd1000",to="0x00007ffa58e001f4"}]
+desktop-5p8cqhq\cjz
+~"[Thread 8272.0x7f1c exited with code 0]\n"
+=thread-exited,id="2",group-id="i1"
+~"[Thread 8272.0x24c4 exited with code 0]\n"
+=thread-exited,id="3",group-id="i1"
+~"[Thread 8272.0x61c4 exited with code 0]\n"
+=thread-exited,id="4",group-id="i1"
+=thread-exited,id="1",group-id="i1"
+~"[Inferior 1 (process 8272) exited normally]\n"
+=thread-group-exited,id="i1",exit-code="0"
+*stopped,reason="exited-normally"
+(gdb) 
+^exit
